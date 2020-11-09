@@ -2,8 +2,8 @@
 
 class File {
 
-	public file;
-	public filehandle;
+	public $file;
+	public $filehandle;
 
 
 	public function openfile( ) {
