@@ -22,7 +22,7 @@ class BatchProcessing {
 	}
 
 	
-	use view controller for more control and structure.
+	//use view controller for more control and structure.
 
 
 }
