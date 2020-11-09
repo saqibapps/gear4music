@@ -8,23 +8,23 @@
  */
 class Consignment
 {
-	public id;
-	public ccid; // customer consignment id
-	public weight;
-	public length;
-	public width;
-	public height;
-	public contents;
-	public declarations;
-	public recipientname;
-	public recipientaddress;
-	public recipientphone;
-	public recipientemail;
-	public depot;
-	public courier;
-	public datecreated;
-	public createdby;
-	public dateupdated;
+	public $id;
+	public $ccid; // customer consignment id
+	public $weight;
+	public $length;
+	public $width;
+	public $height;
+	public $contents;
+	public $declarations;
+	public $recipientname;
+	public $recipientaddress;
+	public $recipientphone;
+	public $recipientemail;
+	public $depot;
+	public $courier;
+	public $datecreated;
+	public $createdby;
+	public $dateupdated;
 
 	function __construct( $raw_consigment_passed_in )
 	{
@@ -34,7 +34,7 @@ class Consignment
 
 			$r = $raw_consigment_passed_in;
 
-			$this->ccid = $r['ccid']''
+			$this->ccid = $r['ccid'];
 			$this->weight = $r['weight'];
 			$this->length = $r['length'];
 			$this->width = $r['width'];
