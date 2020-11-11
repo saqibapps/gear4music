@@ -7,7 +7,7 @@ Assumptions
 - Each consignment is one parcel only.
 - Each consignment data passed into the batch process function has been validated and correct.
 - Each consignment is added as a line in the batch file. One line represents one consignment.
-- This batchfile only has 1 consignment to send to the courier specified in the consignment.
+- This batch file only has 1 consignment to send to the courier specified in the consignment.
 
 
 Implementation
@@ -25,7 +25,8 @@ The batch file will contain consignment data from the test data created in the i
 
 Improvements
 
-- No security has been added to the scripes.
+-Consignment data would come from a flat file or would be generated from a database.
+- No security has been added to the scripts.
 - More validation should be added to the consignment data.
 - Checks to see if filehandles are actually available or have failed. Failure will cause script to crash.
 - Possibly have the batchprocessing class extend the File class.
